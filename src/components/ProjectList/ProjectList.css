@@ -23,7 +23,6 @@
   padding: 25px;
   margin: 10px 20px;
   border-radius: 10px;
-  background-color: white;
   box-shadow: 0 3px 6px rgba(40, 63, 69, 0.06);
   justify-content: space-around;
 }
@@ -45,16 +44,19 @@
 }
 
 .project span.success {
-  color: green;
   text-transform: capitalize;
 }
 
-.project span.pending {
-  color: orange;
+.success .row {
+  background-color: green;
 }
 
-.project span.failure {
-  color: red;
+.pending .row  {
+  background-color: orange;
+}
+
+.failure .row {
+  background-color:red;
 }
 
 .project button.remove{
